@@ -1,0 +1,59 @@
+/* START GLOBAL RULES */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* END GLOBAL RULES */
+
+/* *************** - MEDIA QUERY - *********************** */
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+/* MEDIA QUERY */
+/* ************************************************************/
+/* Small */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 560px;
+  }
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Large */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Extra Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* ************************************************************/
